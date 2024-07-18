@@ -1,0 +1,204 @@
+{
+    "Quiz": [
+        {
+            "Q-1": "What is an array in JavaScript?",
+            "OP-A": "A special variable that can hold more than one value at a time",
+            "OP-B": "A type of loop structure",
+            "OP-C": "A single value holder",
+            "OP-D": "None of the above",
+            "Answer": "A special variable that can hold more than one value at a time"
+        },
+        {
+            "Q-2": "How do you create an array in JavaScript?",
+            "OP-A": "var arr = 'item1, item2, item3';",
+            "OP-B": "var arr = [item1, item2, item3];",
+            "OP-C": "var arr = {item1, item2, item3};",
+            "OP-D": "var arr = (item1, item2, item3);",
+            "Answer": "var arr = [item1, item2, item3];"
+        },
+        {
+            "Q-3": "How do you access the first element of an array?",
+            "OP-A": "arr[1]",
+            "OP-B": "arr.first",
+            "OP-C": "arr[0]",
+            "OP-D": "arr[-1]",
+            "Answer": "arr[0]"
+        },
+        {
+            "Q-4": "What is the correct syntax to find the length of an array?",
+            "OP-A": "arr.size",
+            "OP-B": "arr.length",
+            "OP-C": "arr.count",
+            "OP-D": "arr.total",
+            "Answer": "arr.length"
+        },
+        {
+            "Q-5": "Which method adds a new element to the end of an array?",
+            "OP-A": "push()",
+            "OP-B": "pop()",
+            "OP-C": "shift()",
+            "OP-D": "unshift()",
+            "Answer": "push()"
+        },
+        {
+            "Q-6": "Which method removes the last element from an array?",
+            "OP-A": "push()",
+            "OP-B": "pop()",
+            "OP-C": "shift()",
+            "OP-D": "unshift()",
+            "Answer": "pop()"
+        },
+        {
+            "Q-7": "Which method adds a new element to the beginning of an array?",
+            "OP-A": "push()",
+            "OP-B": "pop()",
+            "OP-C": "shift()",
+            "OP-D": "unshift()",
+            "Answer": "unshift()"
+        },
+        {
+            "Q-8": "Which method removes the first element from an array?",
+            "OP-A": "push()",
+            "OP-B": "pop()",
+            "OP-C": "shift()",
+            "OP-D": "unshift()",
+            "Answer": "shift()"
+        },
+        {
+            "Q-9": "How do you join all elements of an array into a string?",
+            "OP-A": "arr.concat()",
+            "OP-B": "arr.join()",
+            "OP-C": "arr.split()",
+            "OP-D": "arr.toString()",
+            "Answer": "arr.join()"
+        },
+        {
+            "Q-10": "Which method returns a new array with all elements that pass a test implemented by the provided function?",
+            "OP-A": "filter()",
+            "OP-B": "map()",
+            "OP-C": "forEach()",
+            "OP-D": "reduce()",
+            "Answer": "filter()"
+        },
+        {
+            "Q-11": "How do you add new elements to the beginning of an array without removing any existing elements?",
+            "OP-A": "concat()",
+            "OP-B": "push()",
+            "OP-C": "splice()",
+            "OP-D": "unshift()",
+            "Answer": "unshift()"
+        },
+        {
+            "Q-12": "Which method can be used to merge two or more arrays?",
+            "OP-A": "merge()",
+            "OP-B": "concat()",
+            "OP-C": "combine()",
+            "OP-D": "append()",
+            "Answer": "concat()"
+        },
+        {
+            "Q-13": "Which method creates a new array with the results of calling a provided function on every element in the array?",
+            "OP-A": "filter()",
+            "OP-B": "map()",
+            "OP-C": "forEach()",
+            "OP-D": "reduce()",
+            "Answer": "map()"
+        },
+        {
+            "Q-14": "How do you find the index of a specific element in an array?",
+            "OP-A": "findIndex()",
+            "OP-B": "search()",
+            "OP-C": "indexOf()",
+            "OP-D": "locate()",
+            "Answer": "indexOf()"
+        },
+        {
+            "Q-15": "Which method removes elements from an array and, if necessary, inserts new elements in their place?",
+            "OP-A": "splice()",
+            "OP-B": "slice()",
+            "OP-C": "cut()",
+            "OP-D": "trim()",
+            "Answer": "splice()"
+        },
+        {
+            "Q-16": "How do you create a new array that is a shallow copy of a portion of an existing array?",
+            "OP-A": "slice()",
+            "OP-B": "splice()",
+            "OP-C": "split()",
+            "OP-D": "copy()",
+            "Answer": "slice()"
+        },
+        {
+            "Q-17": "Which method executes a provided function once for each array element?",
+            "OP-A": "forEach()",
+            "OP-B": "every()",
+            "OP-C": "some()",
+            "OP-D": "map()",
+            "Answer": "forEach()"
+        },
+        {
+            "Q-18": "Which method tests whether all elements in the array pass the provided function?",
+            "OP-A": "every()",
+            "OP-B": "some()",
+            "OP-C": "forEach()",
+            "OP-D": "map()",
+            "Answer": "every()"
+        },
+        {
+            "Q-19": "Which method tests whether at least one element in the array passes the provided function?",
+            "OP-A": "every()",
+            "OP-B": "some()",
+            "OP-C": "forEach()",
+            "OP-D": "map()",
+            "Answer": "some()"
+        },
+        {
+            "Q-20": "Which method sorts the elements of an array in place and returns the sorted array?",
+            "OP-A": "sort()",
+            "OP-B": "order()",
+            "OP-C": "arrange()",
+            "OP-D": "organize()",
+            "Answer": "sort()"
+        },
+        {
+            "Q-21": "Which method applies a function against an accumulator and each element in the array to reduce it to a single value?",
+            "OP-A": "reduce()",
+            "OP-B": "map()",
+            "OP-C": "filter()",
+            "OP-D": "concat()",
+            "Answer": "reduce()"
+        },
+        {
+            "Q-22": "How do you check if an array includes a certain element?",
+            "OP-A": "has()",
+            "OP-B": "contains()",
+            "OP-C": "includes()",
+            "OP-D": "exists()",
+            "Answer": "includes()"
+        },
+        {
+            "Q-23": "Which method creates a new array instance from an array-like or iterable object?",
+            "OP-A": "Array.from()",
+            "OP-B": "Array.create()",
+            "OP-C": "Array.make()",
+            "OP-D": "Array.generate()",
+            "Answer": "Array.from()"
+        },
+        {
+            "Q-24": "Which method returns the first element in the array that satisfies the provided testing function?",
+            "OP-A": "find()",
+            "OP-B": "findIndex()",
+            "OP-C": "locate()",
+            "OP-D": "search()",
+            "Answer": "find()"
+        },
+        {
+            "Q-25": "Which method returns the index of the first element in the array that satisfies the provided testing function?",
+            "OP-A": "find()",
+            "OP-B": "findIndex()",
+            "OP-C": "locate()",
+            "OP-D": "search()",
+            "Answer": "findIndex()"
+        }
+    ]
+}
