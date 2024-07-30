@@ -1,85 +1,79 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* style.css */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-button {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#start {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #007bff;
-    color: white;
+    color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-button:hover {
+#start:hover {
     background-color: #0056b3;
-}
-
-#timer {
-    margin-top: 20px;
-    font-size: 24px;
-}
-
-#BOX {
-    margin-top: 20px;
 }
 
 .question {
     margin-bottom: 20px;
 }
 
-.option {
-    display: block;
-    margin-bottom: 5px;
+.question h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.question ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question li {
+    margin-bottom: 10px;
+}
+
+.question input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit-button, .next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
     cursor: pointer;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 
-.option:hover {
-    background-color: #e0e0e0;
+.submit-button:hover, .next-button:hover {
+    background-color: #218838;
 }
 
-.correct {
-    background-color: green;
-    color: white;
-}
-
-.wrong {
-    background-color: red;
-    color: white;
-}
-
-#camera {
-    display: none;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    button {
-        font-size: 16px;
-    }
-    
-    #timer {
-        font-size: 20px;
-    }
-    
-    .option {
-        padding: 8px;
-    }
+#result {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
 }
